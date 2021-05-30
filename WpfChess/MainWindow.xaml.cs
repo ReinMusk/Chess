@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using ChessCore; 
 
 namespace WpfChess
 {
@@ -23,6 +24,16 @@ namespace WpfChess
         public MainWindow()
         {
             InitializeComponent();
+
+            lbData.ItemsSource = PieceFab.InitPieceData();
         }
+
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            
+        }
+
+        
     }
 }
