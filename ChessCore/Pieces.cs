@@ -8,8 +8,10 @@ namespace ChessCore
 {
     public class Piece
     {
-        protected int x1;
-        protected int y1;
+        public object Parent;
+
+        public int x1;
+        public int y1;
 
         public Piece(int x, int y)
         {

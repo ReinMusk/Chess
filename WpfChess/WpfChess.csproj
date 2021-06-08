@@ -100,5 +100,12 @@
       <Name>ChessCore</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imges\bishop.png" />
+    <Resource Include="imges\king.png" />
+    <Resource Include="imges\knight.png" />
+    <Resource Include="imges\queen.png" />
+    <Resource Include="imges\rook.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
